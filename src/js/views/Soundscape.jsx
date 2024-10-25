@@ -11,12 +11,12 @@ export const Soundscape = () => {
     const music = useRef(null);
     const navigate = useNavigate();
 
-    // useEffect(() => {
-    //     if (!store.isLogin) {
-    //         alert("Please Log-In or Sign-Up");
-    //         navigate("/login");
-    //     }
-    // }, [store.isLogin, navigate]);
+    useEffect(() => {
+        if (!store.isLogin) {
+            alert("Please Log-In or Sign-Up");
+            navigate("/login");
+        }
+    }, [store.isLogin, navigate]);
 
     useEffect(() => {
         const scrollToRef = (ref) => {

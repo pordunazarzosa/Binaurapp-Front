@@ -19,7 +19,8 @@ import { Profile } from "../src/js/views/Profile.jsx";
 import { Playlist } from "../src/js/views/Playlist.jsx";
 import { Soundscape } from "../src/js/views/Soundscape.jsx";
 import { Tutorial } from "../src/js/views/Tutorial.jsx";
-import { Mixes } from "../src/js/views/Mixes.jsx";
+import { Mixes } from "../src/js/views/MixesMobile.jsx";
+// import { MixesMobile } from "../src/js/views/MixesMobile.jsx";
 import { Alpha } from "../src/js/views/Alpha.jsx";
 import { Theta } from "../src/js/views/Theta.jsx";
 import { Delta } from "../src/js/views/Delta.jsx";
@@ -82,6 +83,7 @@ const Layout = () => {
                         <Route path="/theta" element={<Theta />} />
                         <Route path="/delta" element={<Delta />} />
                         <Route path="/mixes" element={<Mixes />} />
+                        {/* <Route path="/mixes-mobile" element={<MixesMobile />} /> */}
                         <Route path="/editmixes" element={<EditMixes />} />
                         <Route path="/playlist" element={<Playlist />} />
                         <Route path="/profile" element={<Profile />} />

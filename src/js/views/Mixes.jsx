@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 import { format } from 'date-fns';
 
 
-export const Mixes = () => {
+export const Mixes2 = () => {
   const { store, actions } = useContext(Context);
   const navigate = useNavigate();
 
